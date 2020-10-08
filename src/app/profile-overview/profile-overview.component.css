@@ -12,7 +12,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding-bottom: 0;
-    color: rgba(134, 245, 7, 0.5);
+    color: rgb(26, 17, 17);
  }
  
  h1,
@@ -42,7 +42,7 @@
  h3 {
    font-size: 2.8rem;
    font-weight: 500;
-   color: rgb(109, 207, 175);
+   color: rgb(20, 12, 12);
  }
  
  .container {

@@ -20,7 +20,7 @@
   }
   
   h1 {
-  font-size: 4.4rem;
+  font-size: 2.2rem;
   color: rgb(192, 32, 32);
   margin-bottom: 5rem;
   }
@@ -52,23 +52,23 @@
   .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 10px;
+    padding: 5px;
   }
   
   .grid-item {
   background-color: rgba(14, 3, 3, 0.8);
   border: 1px solid rgba(139, 124, 124, 0.8);
-  padding: 25px;
-  font-size: 40px;
+  padding:5px ;
+  font-size: 25px;
   text-align: left;
   }
   
   .container {
     width: 100vw;
-    height: 235vh;
+    height: 300vh;
     justify-content: left;
     align-items: left;
-    max-width: 100rem;
+    max-width: 80rem;
     margin: 0 auto;
   }
   
@@ -101,7 +101,7 @@
     list-style-type: circle;
   }
   .profile-image-wrapper img {
-    width: 100%;
-    border-radius: 45%;
+    width: 45%;
+    border-radius: 30%;
   }
   

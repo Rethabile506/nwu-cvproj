@@ -28,6 +28,22 @@ h1 {
         font-weight: 500;
         color: rgb(92, 164, 197);
         }
+        .social{
+            margin-top: 50px;
+            margin-bottom: 45px;
+            float: right;
+            height:fit-content;
+            width: fit-content;
+            padding: 5px;
+
+        }
+        a.fa{
+            color: black(238,170,25);
+            font-size: 25px;
+        }
+        a.fa:hover{
+            color: cadetblue;
+        }
 
   .btnContainer{
     text-align: center;
@@ -119,7 +135,7 @@ h1 {
     background-blend-mode: soft-light;
     background-size: cover;
     background-position: center center;
-    padding: 2rem;
+    padding: 1rem;
 }
 .bird {
     background-image: url(http://www.iamramraj.com/demo/Flying_birds_CSS_animation_examples/bird-cells.svg);
@@ -377,4 +393,8 @@ h1 {
  -webkit-transform: translateY(0vh) scale(0.45);
  transform: translateY(0vh) scale(0.45);
 }
+}
+
+ul{
+    display: inline;
 }

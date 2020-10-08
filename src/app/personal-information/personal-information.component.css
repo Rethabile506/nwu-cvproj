@@ -52,13 +52,13 @@ h3 {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 10px;
+    padding: 5px;
   }
 
 .grid-item {
 background-color: rgba(24, 9, 66, 0.8);
 border: 1px solid rgba(139, 124, 124, 0.8);
-padding: 25px;
+padding: 5px;
 font-size: 40px;
 text-align: left;
 }
@@ -83,7 +83,7 @@ text-align: left;
   
 .btn {
     font-size: 2.8rem;
-    padding: 10px 20px;
+    padding: 5px 10px;
     width: 40rem;
     text-align: center;
     border: 0.5rem solid #948f96;

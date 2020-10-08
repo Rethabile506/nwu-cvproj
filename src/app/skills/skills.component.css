@@ -1,0 +1,90 @@
+:root {
+    font-size: 70.5%;
+    background-clip: padding-box;
+    background-image: url("/Rethabile/loading.gif"); 
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .position{
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    background: transparent;
+    
+  }
+  
+  h1{
+    color: chocolate;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  
+  
+  .skillArea{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 25px 0;
+  }
+  
+  .skillArea p {
+    color: chocolate;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .skillArea p:nth-child(2){
+    float: right;
+    position: relative;
+    top: -30px;
+  }
+  
+  .skill{
+     background: #262626;
+     padding: 4px;
+     box-sizing: border-box;
+     border: 1px solid #0fffb7;
+     border-radius: 3px;
+  }
+  
+  .skill_percentage{
+    background: #0fffb7;
+    width: 100%;
+    height: 10px;
+  }
+  
+  .btnContainer{
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .btn {
+      font-size: 2.8rem;
+      padding: 10px 20px;
+      width: 25rem;
+      text-align: center;
+      border: 0.3rem solid #948f96;
+      margin-bottom: 4rem;
+      margin: 10px;
+      color: chocolate;
+      background-color: rgb(13, 44, 53);
+      position: relative;
+    }
+   
+    .btn:hover {
+      cursor: pointer;
+      box-shadow: 0 1.4rem 2.4rem 0 rgba(190, 243, 56, 0.5);
+      transform: translateY(-0.1rem);
+      transition: transform 150ms;
+    }

@@ -1,0 +1,104 @@
+:root {
+    font-size: 62.5%;
+    background-clip: padding-box;
+    background-image: url("/Rethabile/loading.gif");   
+ }
+ 
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1px;
+    padding-bottom: 2px;
+    color: rgba(241, 106, 15, 0.5);
+ }
+
+ h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 4.4rem;
+  color: rgb(141, 65, 65);
+  margin-bottom: 5rem;
+}
+
+h1 > span {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 4.2rem;
+  margin-bottom: 4rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: rgb(109, 207, 175);
+}
+.profile-content-wrapper {
+    padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+    color: rgb(155, 158, 116);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+
+.grid-item {
+background-color: rgba(24, 9, 66, 0.8);
+border: 1px solid rgba(139, 124, 124, 0.8);
+padding: 25px;
+font-size: 40px;
+text-align: left;
+}
+
+.container {
+    width: 110vw;
+    height: 300vh;
+    justify-content: left;
+    align-items: left;
+    max-width: 110rem;
+    margin: 0 auto;
+  }
+  
+  .container > * {
+    width: 100%;
+  }
+
+  .btnContainer{
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+.btn {
+    font-size: 2.8rem;
+    padding: 10px 20px;
+    width: 40rem;
+    text-align: center;
+    border: 0.5rem solid #948f96;
+    margin-bottom: 4rem;
+    margin: 10px;
+    color: chocolate;
+    background-color: rgba(94, 87, 112, 0.8);
+    position: relative;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 1.4rem 2.4rem 0 rgba(190, 243, 56, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  

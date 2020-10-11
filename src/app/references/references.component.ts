@@ -16,8 +16,6 @@ export class ReferencesComponent implements OnInit {
     this.jokeService.getJoke().subscribe((j:Joke)=> this.joke = j);
   }
 
-  goToLink(url: string){
-    window.open(url, "_blank");
-}
+  
 
 }
